@@ -1,0 +1,19 @@
+{
+    "colors": {
+        "red-dark": "#6d132e",
+        "purple": "#7d22b5",
+        "purple-dark": "#552a70",
+        "red": "#eb2e2e",
+        "blue": "#263ebc",
+        "blue-dark": "#002671"
+    },
+    "effects": {
+        "shadow-one": "3px 3px 4px rgba(#910000, 0.25)"
+    },
+    "fonts": {
+        "primary-title": "700 20px Montserrat",
+        "secondary-title": "600 18px Montserrat",
+        "secondary-text": "400 12px Commissioner",
+        "primary-text": "600 12px Commissioner"
+    }
+}

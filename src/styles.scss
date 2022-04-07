@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'functions';
+
+.color-1 {
+  background-color: color(red);
+}
+.color-2 {
+  background-color: color(red-dark);
+}
+.color-3 {
+  background-color: color(purple);
+}
+.color-4 {
+  background-color: color(purple-dark);
+}
+.color-5 {
+  background-color: color(blue);
+}
+.color-6 {
+  background-color: color(blue-dark);
+}
+
+.shadow-1 {
+  background-color: white;
+  color: black !important;
+  border: 2px color black !important;
+  box-shadow: effect(shadow-one);
+}
+
+.primary-title {
+  font: font(primary-title);
+  margin-bottom: 50px;
+}
+
+.secondary-title {
+  font: font(secondary-title);
+  margin-bottom: 50px;
+}
+
+.primary-text {
+  font: font(primary-text);
+  margin-bottom: 50px;
+}
+
+.secondary-text {
+  font: font(secondary-text);
+  margin-bottom: 50px;
+}

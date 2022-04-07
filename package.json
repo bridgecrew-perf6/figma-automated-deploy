@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generate-scss": "node style-guide-generator.js && npm run json-to-scss",
+    "json-to-scss": "json-to-scss figma-values.json ./src"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +20,9 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "axios": "^0.26.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.6",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -29,6 +34,7 @@
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~4.0.0",
+    "json-to-scss": "^1.6.2",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.1.0",

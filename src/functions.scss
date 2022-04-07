@@ -1,0 +1,15 @@
+@import 'figma-values';
+
+@function color($color) {
+    @return map-get(map-get($figma-values, colors), $color);
+}
+
+@function effect($effect) {
+    @return map-get(map-get($figma-values, effects), $effect);
+}
+
+@function font($font) {
+    @return map-get(map-get($figma-values, fonts), $font);
+}
+  
+  
